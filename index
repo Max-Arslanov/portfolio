@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Content Writer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        color: #333;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+        position: relative;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+      header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 1rem;
+        border: 3px solid white;
+      }
+      nav {
+        text-align: center;
+        margin-top: 1rem;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 1rem;
+        font-size: 1.2rem;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .section {
+        margin-bottom: 2rem;
+      }
+      .section h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #4caf50;
+      }
+      .work-item {
+        margin-bottom: 1.5rem;
+      }
+      .work-item h3 {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+      .work-item p {
+        margin: 0.5rem 0 0;
+      }
+      footer {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+      footer p {
+        margin: 0;
+      }
+      footer a {
+        color: white;
+        text-decoration: underline;
+      }
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 2rem;
+        }
+        nav a {
+          font-size: 1rem;
+          margin: 0 0.5rem;
+        }
+        .container {
+          padding: 0 0.5rem;
+        }
+        .section h2 {
+          font-size: 1.5rem;
+        }
+        .work-item h3 {
+          font-size: 1.2rem;
+        }
+        footer {
+          font-size: 0.9rem;
+        }
+      }
+      @media (max-width: 480px) {
+        header img {
+          width: 80px;
+          height: 80px;
+        }
+        header h1 {
+          font-size: 1.5rem;
+        }
+        nav a {
+          font-size: 0.9rem;
+        }
+        .section h2 {
+          font-size: 1.2rem;
+        }
+        .work-item h3 {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Maksym Arslanov - Content Writer</h1>
+      <img src="./images/me.jpg" alt="Maksym Arsanov's photo" />
+      <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Maksym Arslanov, a professional content writer with over 20
+          years of experience in marketing, public relations and journalism. I
+          have experience in a variety of fields, such as software development,
+          business consulting, tax and legal services, aviation, and logistics.
+          Whether crafting compelling pieces under my name or ghostwriting for
+          others I specialize in delivering engaging, audience-focused content
+          in English, Ukrainian and Russian that informs, engages, and produces
+          outcomes. I provide writing that is suited to your objectives, whether
+          you require content for thought leadership, brand narrative, or lead
+          generation.
+        </p>
+      </section>
+
+      <section id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <div class="work-item">
+          <h3>
+            Blog Post: "AI in Logistics and Transportation Industry: Key
+            Benefits"
+          </h3>
+          <p>
+            An in-depth analysis of artificial intelligence in logistics,
+            exploring its applications and the transformative benefits it brings
+            to the industry. <a href="https://uvik.net/blog/ai-in-logistics-and-transportation-industry-key-benefits/">Read more</a>
+          </p>
+        </div>
+        <div class="work-item">
+          <h3>Website Copy: "Tech Solutions Inc."</h3>
+          <p>
+            Crafted engaging and clear website content for a leading IT
+            solutions company. <a href="#">View project</a>
+          </p>
+        </div>
+        <div class="work-item">
+          <h3>Case Study: "How Company X Increased Sales by 40%"</h3>
+          <p>
+            Detailed analysis of a successful marketing strategy implemented by
+            Company X. <a href="#">Read case study</a>
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>
+          I'd love to hear from you! Whether you're looking for a content writer
+          or just want to connect, feel free to reach out:
+        </p>
+        <p>Email: <a href="mailto:marslanov@aol.com">marslanov@aol.com</a></p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/maksym-arslanov-32337a1/"
+            target="_blank"
+            >https://www.linkedin.com/in/maksym-arslanov-32337a1/</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Maksym Arslanov. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
