@@ -8,7 +8,7 @@ a:hover {
   background-color: #0ec8a9;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -28,6 +28,7 @@ header {
   position: relative;
   margin-right: 15%;
   margin-left: 15%;
+  font-family: "Inter", sans-serif;
 }
 header h1 {
   margin: 0;
@@ -41,9 +42,10 @@ header img {
   border: 3px solid white;
 }
 nav {
+  font-family: "Roboto", sans-serif;
   text-align: center;
   margin-top: 1rem;
-  font-style: bold;
+  font-style: initial;
 }
 nav a {
   color: white;
