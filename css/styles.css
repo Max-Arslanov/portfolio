@@ -41,6 +41,9 @@ header img {
   margin-top: 1rem;
   border: 3px solid white;
 }
+.about {
+  text-align: justify;
+}
 nav {
   font-family: "Roboto", sans-serif;
   text-align: center;
